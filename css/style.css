@@ -6,8 +6,8 @@
 body {
 		font-family: Arial, sans-serif;
 		font-size: 14px;
-		color: #000;
-		background-color: #fff;
+		color: #fff;
+		background-color: #19282c;
 		line-height: 1.6em;
 }
 
@@ -28,13 +28,12 @@ h1 {
 }
 
 #slider {
-		width: 925px;
-		height: 430px;
+		width: 900px;
+		height: 400px;
 		position: relative;
 		overflow: hidden;
 		float: left;
 		padding: 3px;
-		border: 2px solid #666;
 		border-radius: 5px;
 }
 
@@ -52,7 +51,7 @@ h1 {
 		bottom: 0;
 		left: 0;
 		padding: 20px;
-		background-color: #7f7f7f;
+		color: #8b9e9f;
 		background-color: rgba(0, 0 , 0, 0.5);
 }
 
@@ -64,11 +63,16 @@ h1 {
 }
 
 #prev {
-		top: 300px;
+		top: 160px;
+		left: 50px;
 }
 
 #next {
-		bottom: 230px;
-		left: 840px;
+		bottom: 246px;
+		left: 916px;
+}
+
+.oldActive {
+
 }
 
